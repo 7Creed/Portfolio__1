@@ -268,9 +268,11 @@ a:hover,
 
 .hero__content {
   overflow-x: clip;
+  /* background: transparent; */
 }
 
 .hero__image {
+  /* opacity: 0.4; */
   width: 65%;
   height: 550px;
   margin-inline: auto;
@@ -575,6 +577,10 @@ h1 > span:nth-of-type(1) {
     translate: -40% 50%;
     margin-left: -30px;
   }
+}
+
+.lazy-img {
+  filter: blur(20px);
 }
 
 /* PROJECTS */
